@@ -1,72 +1,70 @@
 {
-  "schemaVersion": 1,
-  "verifiedAtUtc": "2026-11-14T14:58:34Z",
-  "observationType": "point-in-time deployment verification, not monitoring",
-  "hubRuntimeCommit": "1944a7de7fe8a9563631f3e8d4d16ebf9ef8af3a",
+  "schemaVersion": 2,
+  "batchId": "zion-restoration-2026-11-14-en-es-pt",
+  "verifiedAtUtc": "2026-11-14T20:28:16Z",
+  "httpAndNodeVerifiedAtUtc": "2026-11-14T20:27:08Z",
+  "observationType": "point-in-time deployment and regression verification, not monitoring",
+  "hubImplementationCommit": "50908b6fdfef3fd20ff237012c1f50edffcfde3f",
+  "verifiedSourceCommits": {
+    "zion-ai-apps-hub": "ae810fc3baf224fcecc9d1a8bba0f5124407a1c7",
+    "llm-stream-inspector": "5a3495705377570e6fac1db8c66cf5f97505c553",
+    "agent-retry-safety-lab": "3bb8c8fdd4aac393c100e6432155a996a74e4127",
+    "cors-cookie-doctor": "c79b7089ed17aa27fc7cb076efb9e02dbe00c418"
+  },
+  "satelliteDocumentationCommits": {
+    "llm-stream-inspector": "9164a9e1ef44d144596079683f7ca00b1e46e079",
+    "agent-retry-safety-lab": "4e83a6502e1c66ac808cc2bb32611611bb6bb067",
+    "cors-cookie-doctor": "77fd526c0f558cb4f9fd191ed00e6448c02a3914"
+  },
   "checks": {
+    "requiredDirectedLinks": 12,
+    "verifiedDirectedLinks": 12,
     "fullyConnectedNavigation": true,
+    "runtimeFilesCompared": 14,
     "deployedRuntimeMatchesCommittedSources": true,
-    "hubSearchAndCategoryFilters": "passed in Chromium locally and on live HTTPS site",
-    "hubWithoutJavaScript": "all three app cards and links visible",
+    "runtimeComparisonMethod": "TLS-verified live bytes compared by Git blob SHA-1 to anchored repository trees",
+    "hubStaticRegression": "passed for en, es, and pt using node tests/localization.test.cjs",
+    "hubLiveChromium": "passed for en, es, and pt",
+    "hubSearchAndCategoryFilters": true,
+    "hubTranslatedResultCountsAndEmptyStates": true,
+    "hubAccentInsensitiveSearchAndReset": true,
+    "hubLiteralInputNotInterpretedAsHtml": true,
+    "hubKeyboardSkipLink": true,
+    "hubLanguageSwitchRoundTrips": true,
+    "hubNoJavaScriptCardsAndLanguageLinks": true,
+    "hubInactiveFiltersHiddenWithoutJavaScript": true,
     "hubResponsiveWidthsTestedPx": [320, 390, 768, 900, 1440],
     "hubHorizontalOverflowObserved": false,
     "hubScriptErrorsObserved": false,
     "hubUnexpectedRuntimeNetworkRequestsObserved": false,
-    "satelliteRegressionTestsPassed": 33,
-    "existingSatelliteFilesModified": false
+    "satelliteNodeRegressionTests": {"passed": 33, "total": 33},
+    "satelliteLiveChromiumRegressionTests": {"passed": 33, "total": 33},
+    "existingSatelliteRuntimeFilesModified": false,
+    "thirdPartyRepositoriesModified": false,
+    "dnsModified": false
   },
+  "directedGraph": {
+    "zion-ai-apps-hub": ["llm-stream-inspector", "agent-retry-safety-lab", "cors-cookie-doctor"],
+    "llm-stream-inspector": ["zion-ai-apps-hub", "agent-retry-safety-lab", "cors-cookie-doctor"],
+    "agent-retry-safety-lab": ["zion-ai-apps-hub", "llm-stream-inspector", "cors-cookie-doctor"],
+    "cors-cookie-doctor": ["zion-ai-apps-hub", "llm-stream-inspector", "agent-retry-safety-lab"]
+  },
+  "localeViews": [
+    {"locale": "en", "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/", "httpStatus": 200, "htmlLang": "en", "metadataAndNativeLanguageLinksVerified": true},
+    {"locale": "es", "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/", "httpStatus": 200, "htmlLang": "es", "metadataAndNativeLanguageLinksVerified": true},
+    {"locale": "pt", "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/", "httpStatus": 200, "htmlLang": "pt", "metadataAndNativeLanguageLinksVerified": true}
+  ],
   "sites": [
-    {
-      "repository": "saipradikmallakuntla-tech/zion-ai-apps-hub",
-      "repositoryUrl": "https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub",
-      "pagesUrl": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/",
-      "visibility": "public",
-      "pagesSource": {"branch": "main", "path": "/"},
-      "pagesState": "built",
-      "httpsEnforced": true,
-      "liveHttpStatus": 200,
-      "tlsVerified": true,
-      "mutualNavigationVerified": true,
-      "liveBrowserChecks": "passed"
-    },
-    {
-      "repository": "saipradikmallakuntla-tech/llm-stream-inspector",
-      "repositoryUrl": "https://github.com/saipradikmallakuntla-tech/llm-stream-inspector",
-      "pagesUrl": "https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/",
-      "visibility": "public",
-      "pagesSource": {"branch": "main", "path": "/"},
-      "pagesState": "built",
-      "httpsEnforced": true,
-      "liveHttpStatus": 200,
-      "tlsVerified": true,
-      "mutualNavigationVerified": true,
-      "regressionTestsPassed": 9
-    },
-    {
-      "repository": "saipradikmallakuntla-tech/agent-retry-safety-lab",
-      "repositoryUrl": "https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab",
-      "pagesUrl": "https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/",
-      "visibility": "public",
-      "pagesSource": {"branch": "main", "path": "/"},
-      "pagesState": "built",
-      "httpsEnforced": true,
-      "liveHttpStatus": 200,
-      "tlsVerified": true,
-      "mutualNavigationVerified": true,
-      "regressionTestsPassed": 10
-    },
-    {
-      "repository": "saipradikmallakuntla-tech/cors-cookie-doctor",
-      "repositoryUrl": "https://github.com/saipradikmallakuntla-tech/cors-cookie-doctor",
-      "pagesUrl": "https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/",
-      "visibility": "public",
-      "pagesSource": {"branch": "main", "path": "/"},
-      "pagesState": "built",
-      "httpsEnforced": true,
-      "liveHttpStatus": 200,
-      "tlsVerified": true,
-      "mutualNavigationVerified": true,
-      "regressionTestsPassed": 14
-    }
-  ]
+    {"repository": "saipradikmallakuntla-tech/zion-ai-apps-hub", "pagesUrl": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/", "pagesSource": {"branch": "main", "path": "/"}, "pagesStateAtRuntimeVerification": "built", "httpsEnforced": true, "liveHttpStatus": 200, "tlsVerified": true, "runtimeFilesCompared": 5, "requiredOutgoingLinksVerified": 3},
+    {"repository": "saipradikmallakuntla-tech/llm-stream-inspector", "pagesUrl": "https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/", "pagesSource": {"branch": "main", "path": "/"}, "pagesStateAtRuntimeVerification": "built", "httpsEnforced": true, "liveHttpStatus": 200, "tlsVerified": true, "runtimeFilesCompared": 3, "requiredOutgoingLinksVerified": 3, "nodeRegressionPassed": 9, "liveChromiumRegressionPassed": 9, "regressionTotal": 9},
+    {"repository": "saipradikmallakuntla-tech/agent-retry-safety-lab", "pagesUrl": "https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/", "pagesSource": {"branch": "main", "path": "/"}, "pagesStateAtRuntimeVerification": "built", "httpsEnforced": true, "liveHttpStatus": 200, "tlsVerified": true, "runtimeFilesCompared": 3, "requiredOutgoingLinksVerified": 3, "nodeRegressionPassed": 10, "liveChromiumRegressionPassed": 10, "regressionTotal": 10},
+    {"repository": "saipradikmallakuntla-tech/cors-cookie-doctor", "pagesUrl": "https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/", "pagesSource": {"branch": "main", "path": "/"}, "pagesStateAtRuntimeVerification": "built", "httpsEnforced": true, "liveHttpStatus": 200, "tlsVerified": true, "runtimeFilesCompared": 3, "requiredOutgoingLinksVerified": 3, "nodeRegressionPassed": 14, "liveChromiumRegressionPassed": 14, "regressionTotal": 14}
+  ],
+  "notes": [
+    "Localized hub presentations are not additional app nodes; satellite interfaces remain English.",
+    "Finalization changes documentation only; verified runtime files remain unchanged.",
+    "This receipt's own commit is available in Git history; it cannot embed its own commit SHA.",
+    "No uptime SLA, semantic-correctness, security-certification, or exactly-once guarantee is asserted."
+  ],
+  "priorReceipt": "https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/b36cc6021dcef34de1779a8299ec4044a748a0bc/DEPLOYMENT_VERIFICATION.json"
 }
