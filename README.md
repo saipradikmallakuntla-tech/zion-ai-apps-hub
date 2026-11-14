@@ -1,38 +1,40 @@
 # Zion AI Apps Hub
 
-A clean, responsive, dependency-free directory for three working browser-local AI and IT utilities.
+A dependency-free, multilingual directory for three browser-local AI and IT utilities.
 
-**Live hub:** https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/
+## Language views
+- [English](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) — `index.html`, the default.
+- [Español](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/) — `es/index.html`.
+- [Português](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/) — `pt/index.html`.
 
-| Tool | Live HTTPS app | GitHub |
+Each URL contains a complete static view: navigation, app descriptions, limitations, search/category labels, result counts, empty state, privacy information, and release links. Language links work without JavaScript. Each page sets its own HTML `lang`, canonical URL, alternate `hreflang` links, x-default, and localized CollectionPage metadata. Brand/product names remain unchanged. The satellite interfaces are currently **English-only**; the selector localizes this hub, not those tools.
+
+The English default is deterministic. There is no automatic locale redirect, language cookie, local-storage preference, or transfer of search text between pages. Optional filtering is accent-insensitive and entirely local. Without JavaScript, all three cards and language links remain usable and the inactive filters stay hidden.
+
+## Live apps and source
+| App | Live HTTPS URL | Source |
 | --- | --- | --- |
 | LLM Stream Inspector | https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/ | https://github.com/saipradikmallakuntla-tech/llm-stream-inspector |
 | Agent Retry Safety Lab | https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/ | https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab |
 | CORS & Cookie Doctor | https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/ | https://github.com/saipradikmallakuntla-tech/cors-cookie-doctor |
 
-## Run locally
-Open `index.html`, or serve this directory with any static server:
+## Run and test
+Serve the repository root, then open the default or localized path:
 ```sh
 python3 -m http.server 8000
+node tests/localization.test.cjs
 ```
-There is no installation, package manager, bundler, framework, remote font, model API, or application backend. All cards and links are rendered in HTML and work without JavaScript. Optional search/category filtering is local and does not persist input.
+There is no installation, bundler, framework, API key, inference call, shared script host, or backend. `styles.css` and `app.js` are local assets; `.nojekyll` keeps Pages publishing static. Publish `main:/` with HTTPS enforcement. Spanish and Portuguese pages reference assets relative to their directories.
 
-## Files
-- `index.html`: semantic HTML5 homepage, promotional cards, direct HTTPS navigation and CollectionPage / WebApplication JSON-LD.
-- `styles.css`: responsive layout, visible keyboard focus, reduced-motion support and print styles.
-- `app.js`: optional, dependency-free directory filtering.
-- `NETWORK.md`: four-repository architecture and link contract.
-- `NEXT_BATCH_ROADMAP.md`: deployment/HTTPS observations, scope boundaries, and six proposals, not yet-created products.
-- `.nojekyll`: skip Jekyll processing on GitHub Pages.
+## Privacy and scope
+No fetch/XHR, uploads, telemetry, cookies, persistent storage, external fonts, iframes, or external runtime assets. Ordinary canonical HTTPS navigation carries no captures, prompts, secrets, headers, cookies, or scenario parameters. CSP disables runtime connections and object embedding. Input text is never interpreted as HTML.
 
-## Publishing
-Pages source is the repository's `main` branch, root `/`. HTTPS enforcement is enabled after provisioning and verified through GitHub's Pages API. Deployment observations are point-in-time snapshots, not monitoring. See [the roadmap](NEXT_BATCH_ROADMAP.md#https-and-deployment-status) for verification status.
+These are diagnostic aids, not security certificates, model-quality guarantees, or exactly-once guarantees. This batch does not change satellite engines or third-party repositories, catalogs, APIs, registration, or DNS. The complementary network is independent; a reference is not an endorsement.
 
-## Privacy and accuracy
-The hub never loads or embeds satellite captures. Navigation is by ordinary HTTPS links, without scenario or input parameters. No fetch/XHR, telemetry, cookies, local storage or external runtime assets. Each satellite documents its own parser/model limits. The tools are diagnostic aids, not security certificates, model-quality guarantees or exactly-once execution guarantees.
+## Release evidence
+- [Current restoration/localization batch](NETWORK_RESTORATION_BATCH.md).
+- [Four-repository link and locale contract](NETWORK.md).
+- [Dated deployment receipt](DEPLOYMENT_VERIFICATION.json): point-in-time evidence, not monitoring.
+- [Prior six-candidate roadmap](NEXT_BATCH_ROADMAP.md): historical launch verification and design proposals, **not six launched apps**. Its dated observations are retained rather than silently rewritten.
 
-No existing satellite code is changed by this hub release. Each satellite already links to this hub and both siblings. The previously missing hub destination is now provisioned here; historical satellite provisioning notes may still describe its earlier absence.
-
-[Network map](NETWORK.md) · [Next batch](NEXT_BATCH_ROADMAP.md) · [Owner](https://github.com/saipradikmallakuntla-tech)
-
-This is an independently hosted complementary network. Links to [Zion Tech Group](https://ziontechgroup.com/) are references, not a claim of upstream registration or endorsement.
+Español: el directorio está traducido; las aplicaciones satélite siguen en inglés. Português: o diretório está traduzido; os aplicativos satélites continuam em inglês.
