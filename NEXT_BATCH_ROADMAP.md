@@ -2,7 +2,8 @@
 
 **Owner:** [saipradikmallakuntla-tech](https://github.com/saipradikmallakuntla-tech)  
 **Prepared:** 2026-11-14 UTC  
-**Scope:** one hub and three existing satellite apps. The six proposals below are design candidates only; no next-batch repositories have been created.
+**Deployment verification completed:** 2026-11-14 at 14:58:34 UTC  
+**Scope:** one live hub and three existing live satellite apps. The six proposals below are design candidates only; no next-batch repositories have been created.
 
 ## Four-repository architecture
 
@@ -17,16 +18,24 @@ The navigation graph is fully connected: hub → all satellites, and each satell
 
 ## HTTPS and deployment status
 
-Provisioning snapshot on 2026-11-14 UTC. Satellite observations below were refreshed from GitHub's Pages API during this hub release. The hub remains pending in this initial commit until Pages creation and a live fetch are verified; the final verification commit will replace this table.
+Verified on 2026-11-14, completed at 14:58:34 UTC. GitHub Pages API observations confirmed the public sites, `main:/` publishing source, successful build state, and HTTPS enforcement. Independent TLS-verified live fetches returned HTTP 200, and all runtime files matched the committed sources.
 
 | Repository | Visibility | Pages source | Pages state | HTTPS enforced | Live HTTP check |
 | --- | --- | --- | --- | --- | --- |
-| zion-ai-apps-hub | Public | Planned `main:/` | Pending enablement | Pending verification | Pending |
-| llm-stream-inspector | Public | `main:/` | `built` | `true` | Pending refresh in this release |
-| agent-retry-safety-lab | Public | `main:/` | `built` | `true` | Pending refresh in this release |
-| cors-cookie-doctor | Public | `main:/` | `built` | `true` | Pending refresh in this release |
+| zion-ai-apps-hub | Public | `main:/` | `built` | `true` | `200`, TLS verified |
+| llm-stream-inspector | Public | `main:/` | `built` | `true` | `200`, TLS verified |
+| agent-retry-safety-lab | Public | `main:/` | `built` | `true` | `200`, TLS verified |
+| cors-cookie-doctor | Public | `main:/` | `built` | `true` | `200`, TLS verified |
 
-These are dated observations, not continuous monitoring, an SLA, or proof that a model/analysis result is correct. All apps use GitHub's default `github.io` domain; no custom DNS or CNAME changes are required.
+### Verification evidence
+
+- **Hub implementation commit:** [1944a7d](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/commit/1944a7de7fe8a9563631f3e8d4d16ebf9ef8af3a). The subsequent verification commit changes documentation/receipt files, not runtime HTML/CSS/JS.
+- **Deployment receipt:** [DEPLOYMENT_VERIFICATION.json](DEPLOYMENT_VERIFICATION.json), a dated, machine-readable snapshot.
+- **Live navigation:** all four sites offered the required links to the other three. Existing satellite code was not modified.
+- **Hub browser checks:** local filtering and category combinations, no-results/reset behavior, no-JavaScript card navigation, semantic HTML and three WebApplication schema entries. Responsive layouts at 320, 390, 768, 900 and 1440 pixels had no horizontal overflow. No script errors or unexpected runtime network requests were observed in these checks.
+- **Live satellite regression checks:** Stream Inspector 9/9; Retry Safety Lab 10/10; CORS & Cookie Doctor 14/14 — **33/33 passed** in Chromium.
+
+These are dated observations, not continuous monitoring, an SLA, or proof that a model/analysis result is correct. All apps use GitHub's default `github.io` domain; no custom DNS or CNAME changes were required.
 
 ## Scope and duplicate-avoidance principles
 

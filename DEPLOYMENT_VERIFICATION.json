@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "verifiedAtUtc": "2026-11-14T14:58:34Z",
+  "observationType": "point-in-time deployment verification, not monitoring",
+  "hubRuntimeCommit": "1944a7de7fe8a9563631f3e8d4d16ebf9ef8af3a",
+  "checks": {
+    "fullyConnectedNavigation": true,
+    "deployedRuntimeMatchesCommittedSources": true,
+    "hubSearchAndCategoryFilters": "passed in Chromium locally and on live HTTPS site",
+    "hubWithoutJavaScript": "all three app cards and links visible",
+    "hubResponsiveWidthsTestedPx": [320, 390, 768, 900, 1440],
+    "hubHorizontalOverflowObserved": false,
+    "hubScriptErrorsObserved": false,
+    "hubUnexpectedRuntimeNetworkRequestsObserved": false,
+    "satelliteRegressionTestsPassed": 33,
+    "existingSatelliteFilesModified": false
+  },
+  "sites": [
+    {
+      "repository": "saipradikmallakuntla-tech/zion-ai-apps-hub",
+      "repositoryUrl": "https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub",
+      "pagesUrl": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/",
+      "visibility": "public",
+      "pagesSource": {"branch": "main", "path": "/"},
+      "pagesState": "built",
+      "httpsEnforced": true,
+      "liveHttpStatus": 200,
+      "tlsVerified": true,
+      "mutualNavigationVerified": true,
+      "liveBrowserChecks": "passed"
+    },
+    {
+      "repository": "saipradikmallakuntla-tech/llm-stream-inspector",
+      "repositoryUrl": "https://github.com/saipradikmallakuntla-tech/llm-stream-inspector",
+      "pagesUrl": "https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/",
+      "visibility": "public",
+      "pagesSource": {"branch": "main", "path": "/"},
+      "pagesState": "built",
+      "httpsEnforced": true,
+      "liveHttpStatus": 200,
+      "tlsVerified": true,
+      "mutualNavigationVerified": true,
+      "regressionTestsPassed": 9
+    },
+    {
+      "repository": "saipradikmallakuntla-tech/agent-retry-safety-lab",
+      "repositoryUrl": "https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab",
+      "pagesUrl": "https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/",
+      "visibility": "public",
+      "pagesSource": {"branch": "main", "path": "/"},
+      "pagesState": "built",
+      "httpsEnforced": true,
+      "liveHttpStatus": 200,
+      "tlsVerified": true,
+      "mutualNavigationVerified": true,
+      "regressionTestsPassed": 10
+    },
+    {
+      "repository": "saipradikmallakuntla-tech/cors-cookie-doctor",
+      "repositoryUrl": "https://github.com/saipradikmallakuntla-tech/cors-cookie-doctor",
+      "pagesUrl": "https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/",
+      "visibility": "public",
+      "pagesSource": {"branch": "main", "path": "/"},
+      "pagesState": "built",
+      "httpsEnforced": true,
+      "liveHttpStatus": 200,
+      "tlsVerified": true,
+      "mutualNavigationVerified": true,
+      "regressionTestsPassed": 14
+    }
+  ]
+}
