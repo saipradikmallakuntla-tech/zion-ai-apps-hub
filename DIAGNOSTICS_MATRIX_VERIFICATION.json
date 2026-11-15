@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "batch_id": "zion-diagnostics-matrix-2026-11-15-en-es-pt",
+  "owner": "saipradikmallakuntla-tech",
+  "status": "content_and_runtime_verified",
+  "verified_at_utc": "2026-11-15T10:52:29.807841+00:00",
+  "parent_supermemory_checkpoint": "6BT7igZuD59TQW6RB8qePW",
+  "container_tag": "zion_app_network",
+  "baseline_main_commits": {
+    "zion-ai-apps-hub": "3342ee8015bc94dfbe7c5d714834e898d933471b",
+    "llm-stream-inspector": "eb4b6e5870043439adbba19c60904717b422640c",
+    "agent-retry-safety-lab": "99663742238b4529f7002c3b88d89057aed254a8",
+    "cors-cookie-doctor": "46a4e55841079c53d455eb66f08b83a54268e9de"
+  },
+  "source_commits": {
+    "zion-ai-apps-hub": "04a3ef5e6dedcc9fbaa336994aeeb0af3e4b0da7",
+    "llm-stream-inspector": "6e10eb6a5bfedffee04b05821fd254c3a9b2b16c",
+    "agent-retry-safety-lab": "5694bf05bbe395ea7b2dfc5117e09f7ca61e306c",
+    "cors-cookie-doctor": "61f0b433a19c4208b253b203eef9105f929cdd39"
+  },
+  "direct_content_commits": [
+    "https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/commit/ac7548536f568b04f6bcd445204431b1b498c367",
+    "https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/commit/04a3ef5e6dedcc9fbaa336994aeeb0af3e4b0da7",
+    "https://github.com/saipradikmallakuntla-tech/llm-stream-inspector/commit/6e10eb6a5bfedffee04b05821fd254c3a9b2b16c",
+    "https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab/commit/5694bf05bbe395ea7b2dfc5117e09f7ca61e306c",
+    "https://github.com/saipradikmallakuntla-tech/cors-cookie-doctor/commit/61f0b433a19c4208b253b203eef9105f929cdd39"
+  ],
+  "git_tree_reconciliation": [
+    {
+      "repo": "zion-ai-apps-hub",
+      "tree_sha": "bd96c1287c658cdc1a4285e7d86a7ffa1440ec78",
+      "baseline_blobs": 31,
+      "current_blobs": 36,
+      "modified_baseline_blobs": 3,
+      "new_blobs": 5,
+      "untouched_baseline_blobs": 28,
+      "deletions": 0,
+      "unexpected_changes": 0
+    },
+    {
+      "repo": "llm-stream-inspector",
+      "tree_sha": "b22bf6f73d474df5c2e223328f5aab04a95c3364",
+      "baseline_blobs": 7,
+      "current_blobs": 7,
+      "modified_baseline_blobs": 3,
+      "new_blobs": 0,
+      "untouched_baseline_blobs": 4,
+      "deletions": 0,
+      "unexpected_changes": 0
+    },
+    {
+      "repo": "agent-retry-safety-lab",
+      "tree_sha": "191e3dd93f72af0d1b2fb2260383afa8931c1c28",
+      "baseline_blobs": 7,
+      "current_blobs": 7,
+      "modified_baseline_blobs": 3,
+      "new_blobs": 0,
+      "untouched_baseline_blobs": 4,
+      "deletions": 0,
+      "unexpected_changes": 0
+    },
+    {
+      "repo": "cors-cookie-doctor",
+      "tree_sha": "f10d7115cfe15bf8df4cc3d900198d4af8fe81c8",
+      "baseline_blobs": 7,
+      "current_blobs": 7,
+      "modified_baseline_blobs": 3,
+      "new_blobs": 0,
+      "untouched_baseline_blobs": 4,
+      "deletions": 0,
+      "unexpected_changes": 0
+    }
+  ],
+  "static_verification": {
+    "matrix": {
+      "checked_at_utc": "2026-11-15T10:52:27.953871+00:00",
+      "static_assertions": 1949,
+      "owned_link_checks": 369,
+      "canonical_html_pages_checked": 18,
+      "matrix_rows_per_locale": 9,
+      "handoff_sections_per_locale": 3,
+      "satellite_handoff_recipes": 6,
+      "satellite_matrix_locale_links_html": 9,
+      "satellite_matrix_locale_links_all_files": 27,
+      "directed_network_edges": 12,
+      "preserved_runtime_assets": 8,
+      "preserved_prior_showcase_pages": 9,
+      "rendered_browser_qa": "skipped_not_claimed",
+      "engine_self_tests": "not_run_in_this_content_only_cycle"
+    },
+    "localization_filter_locales_passed": [
+      "en",
+      "es",
+      "pt"
+    ],
+    "legal_compliance_care_assertions": 228,
+    "existing_network_assertions": 797,
+    "existing_network_owned_link_checks": 261,
+    "per_command_timeout_seconds": 15,
+    "commands": [
+      {
+        "command": "python3 tests/diagnostics-matrix.test.py --output matrix-results.json",
+        "elapsed_seconds": 0.131,
+        "returncode": 0
+      },
+      {
+        "command": "node tests/localization.test.cjs",
+        "elapsed_seconds": 0.075,
+        "returncode": 0
+      },
+      {
+        "command": "node tests/legal-compliance-care.test.cjs",
+        "elapsed_seconds": 0.038,
+        "returncode": 0
+      },
+      {
+        "command": "node tests/network-interlinks.test.cjs",
+        "elapsed_seconds": 0.094,
+        "returncode": 0
+      }
+    ],
+    "execution_filesystem": "tmpfs",
+    "node": "v24.22.1",
+    "earlier_s3_mounted_timeouts_counted_as_passed": false
+  },
+  "https": {
+    "verified_at_utc": "2026-11-15T10:52:29.807841+00:00",
+    "policy": {
+      "method": "GET",
+      "tls_certificate_validation": true,
+      "curl_insecure_used": false,
+      "connect_timeout_seconds": 5,
+      "request_timeout_seconds": 10,
+      "concurrency": 4,
+      "max_rounds": 3
+    },
+    "rounds_used": 1,
+    "resource_count": 36,
+    "passed": 36,
+    "uniform_resource_results": {
+      "http_status": 200,
+      "tls_verify_result": 0,
+      "exact_source_bytes": true,
+      "git_blob_matches": true,
+      "sha256_matches": true
+    },
+    "source_path_rule": "The first URL path segment identifies the owned repository. A trailing directory slash maps to index.html; other paths map literally. source_commits anchors the source bytes. Each listed hash was computed from both source and live body.",
+    "resources": [
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/",
+        "git_blob": "99c3c6f4b0375ca6d38bf1864e71fdb22da00903",
+        "sha256": "04bc160bd27fbafbf098ca99c9d7a803a762b1c7e6c4e0c0042be9241784c276"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/index.html",
+        "git_blob": "99c3c6f4b0375ca6d38bf1864e71fdb22da00903",
+        "sha256": "04bc160bd27fbafbf098ca99c9d7a803a762b1c7e6c4e0c0042be9241784c276"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/diagnostics-matrix.html",
+        "git_blob": "aaa01e9a9b991ff926bc9eb5e0ebc22a6bb2210f",
+        "sha256": "2bbcf3b4fcf0302e17988983dce27e544debc2830e2591360dd760cc695d32a4"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/case-studies.html",
+        "git_blob": "337e578203feda22094e8db8f9861199521cbdbc",
+        "sha256": "89de68de6a4d91fce5a59d636aca9a541e79562891c7443f2975057708e7f1c3"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/changelog.html",
+        "git_blob": "b7a2da2a6ae679675f9aa93f747da7f346e38fc5",
+        "sha256": "24cb1134eba5eb2c746df93df0e3001be7a05bb2c1a6db803dc4d8df150bcc4c"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/legal-compliance-care.html",
+        "git_blob": "178a0e1140935cf13550f6a9cb81e3377725e96e",
+        "sha256": "e6c06abd9691f0b11306cb1fc20f175ad727c4c0556a8869c06d40225da1afc9"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/",
+        "git_blob": "240db1326dc7b252f30759149d3654142addc1d5",
+        "sha256": "5b4606442f12725020a791556079b1361b668497c9f779b0f0414f9e7db046e4"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/index.html",
+        "git_blob": "240db1326dc7b252f30759149d3654142addc1d5",
+        "sha256": "5b4606442f12725020a791556079b1361b668497c9f779b0f0414f9e7db046e4"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/diagnostics-matrix.html",
+        "git_blob": "ae0c3bc8fec499f67e2d7a832c585fa53c7f2052",
+        "sha256": "d987b23f5e0588eb9ac55d86eb550aa1020011bd9f25910ed6f83c5fb8bc7636"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/case-studies.html",
+        "git_blob": "ca80686844bc3403aa0d3da9d5be433fc3f2f924",
+        "sha256": "76ff78b6300cfae7ef10f50a1aeaa2b2f320dc126f5ad9a303cd7c7188f04830"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/changelog.html",
+        "git_blob": "19338faa658979681d613a27537de9f347e07ae0",
+        "sha256": "d0a16a88a9af087fd46251dfe5006c985e3b24d79b33b27e2f6e9878716b3ae6"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/legal-compliance-care.html",
+        "git_blob": "e408d5b6e26a5d771268141f897535a9b66f2312",
+        "sha256": "84d35fdff956eaedabdc89fbf40bbe06b3aff0c39cd2a279ba98af5361a97c04"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/",
+        "git_blob": "f2e9c586e7e4f12e257dc871cf56376e930f5e26",
+        "sha256": "36278791d6306f73bd252445f32546cf3c92a9c227f9bea553abb12990daf465"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/index.html",
+        "git_blob": "f2e9c586e7e4f12e257dc871cf56376e930f5e26",
+        "sha256": "36278791d6306f73bd252445f32546cf3c92a9c227f9bea553abb12990daf465"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/diagnostics-matrix.html",
+        "git_blob": "4db72cfd1113d0e8e98dc8cfeb55bf1e1b523cc3",
+        "sha256": "a97685214508275a0fa253f3444318730cb3bb751660c2be9efa8716426bb327"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/case-studies.html",
+        "git_blob": "13d5ab47533e20e4d24be4eee138d8f6eae3f40c",
+        "sha256": "77e479f5adadee0d26eb2012de644a53194e9d5d70b0f527f68d3ff5bce7662f"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/changelog.html",
+        "git_blob": "52e56aff2daa067781ed6ae7e6d3eab9d2a7deec",
+        "sha256": "1f77fcc310567d3fd41d92f2779b994cc8c31331a71f1fba7d12ae31e15aca04"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/legal-compliance-care.html",
+        "git_blob": "4ebab21a6c778c354a6ab8d695f229e30537d6f8",
+        "sha256": "6af7f9ac2e1e982377ce1d3a4e8cffa62b6d7eabdb89351bb0788e74cd23e1f9"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/",
+        "git_blob": "182ad5e347a15f35aa09063a959c71fe4e6e523b",
+        "sha256": "5712caef44f754682391715097d24b5da451ea0be5eac7e41d24aa7f34649d10"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/README.md",
+        "git_blob": "5693759391b21a7080a819dc81365049af499f90",
+        "sha256": "a2cd21419e5bb97b167cf310cb286d171a807165cc4b45bcb9231337679c7111"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/NETWORK.md",
+        "git_blob": "94e178def9396395524c96724220f8aec2b794fc",
+        "sha256": "5a33de35cadb05548d769fb91e14d810c097c480179768ce2cc208bc3c17388d"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/",
+        "git_blob": "f4594baf4a0a87b58eddd6612a6c803c69b9e843",
+        "sha256": "4b73f2d5c2ca8a8d30eb783b49594c5c79c8a926eb42df7c8b0e4eaa09a2150e"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/README.md",
+        "git_blob": "e1b6251cd2819202fbd40e82a678b76e7e026f6b",
+        "sha256": "2bd77f2ab36eb3d20bae5cb4a2e55f8c6540f3c1268398ef5bba0d926520835b"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/NETWORK.md",
+        "git_blob": "f53b3cf11c635ab1ad9df9ca4337e05037c6206c",
+        "sha256": "3624a4f065cf25e90d44a875808a61f502d360e99a83b06309bc0a2112a63893"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/",
+        "git_blob": "db56fa310d39a431728d912cf54afd12c0353d3f",
+        "sha256": "4c87a90e623253d6450ac8787bcf6587e66d388963a2a96240d534f7aaa59c4b"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/README.md",
+        "git_blob": "21efdc81ba9c510c85ead8329af1d5e50cc338b3",
+        "sha256": "35fcea359201db975a0ed382b06826ea321f3bf47300eac005c790c235ed2517"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/NETWORK.md",
+        "git_blob": "8cd9115a7c12a2bcdf3e05b2bc7f968b13a1a50b",
+        "sha256": "ac8c1d864f1f2020d37f4ab97dfe970d91da34c834486e59edea41c2f86e1fc6"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/app.js",
+        "git_blob": "7e12a12f6f4d4edbe457d9d160ccba26a6b78f51",
+        "sha256": "fd8ea26d164e853f7c9bf2e3631c1df145044ad7bc4a1e8d126e86d17c9e4fc5"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/styles.css",
+        "git_blob": "8d8e544caeb4a20dad4ebefe160d1b136174504d",
+        "sha256": "283a8efa9fedf747b022ff06c56a6b4b789f12c1b37326c2923f84000f8c65f1"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/app.js",
+        "git_blob": "5db9e188d24b0485c72795c05d151d5cd0716f3b",
+        "sha256": "7a3fa0b128eaaf0792005cbd57b098b78b77bee97cab6fe19a2fb6fae63a1596"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/styles.css",
+        "git_blob": "8121090b66979aef1b7179aa69e5cce48e7814e2",
+        "sha256": "d036d28217ed133e8c86097d66ea18ae656c2a67b3070d70c7f6d8c05d0d00ca"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/app.js",
+        "git_blob": "97f50f921915b767624df314e567cc7d081f9863",
+        "sha256": "961333002f3304a6f2750aad35e783b64130199667d6c44d0790259794d48a92"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/styles.css",
+        "git_blob": "a88c31ca331ede8ba6e893acdf6a176be6e17569",
+        "sha256": "dc35901f00d6333b1d9b6b165cf4403c25e54fc1666c9e961fcdbfe2173c4602"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/app.js",
+        "git_blob": "242fd131dbfa0c37eaa81873e4820c9fce88b17d",
+        "sha256": "113d2c53419793a7041ecd03f60a373393d8ca76e7d55df992d1a7bd67157ef4"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/styles.css",
+        "git_blob": "5ae532999334aa999140c29126aca11551b38d72",
+        "sha256": "5683aa1984407445e746fc621018486ad1529ac65b9507dd1d5ff672fbd07145"
+      },
+      {
+        "url": "https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/tests/diagnostics-matrix.test.py",
+        "git_blob": "bb44817f3160dbb33dfdace50db093bfc0a636e0",
+        "sha256": "c1bd72d21a79f88c10834c3ebaa5e87105d1b4058e55ab74088b397b0ca4378b"
+      }
+    ]
+  },
+  "preserved_file_git_blobs": {
+    "zion-ai-apps-hub/app.js": "7e12a12f6f4d4edbe457d9d160ccba26a6b78f51",
+    "zion-ai-apps-hub/styles.css": "8d8e544caeb4a20dad4ebefe160d1b136174504d",
+    "llm-stream-inspector/app.js": "5db9e188d24b0485c72795c05d151d5cd0716f3b",
+    "llm-stream-inspector/styles.css": "8121090b66979aef1b7179aa69e5cce48e7814e2",
+    "agent-retry-safety-lab/app.js": "97f50f921915b767624df314e567cc7d081f9863",
+    "agent-retry-safety-lab/styles.css": "a88c31ca331ede8ba6e893acdf6a176be6e17569",
+    "cors-cookie-doctor/app.js": "242fd131dbfa0c37eaa81873e4820c9fce88b17d",
+    "cors-cookie-doctor/styles.css": "5ae532999334aa999140c29126aca11551b38d72",
+    "zion-ai-apps-hub/case-studies.html": "337e578203feda22094e8db8f9861199521cbdbc",
+    "zion-ai-apps-hub/changelog.html": "b7a2da2a6ae679675f9aa93f747da7f346e38fc5",
+    "zion-ai-apps-hub/legal-compliance-care.html": "178a0e1140935cf13550f6a9cb81e3377725e96e",
+    "zion-ai-apps-hub/es/case-studies.html": "ca80686844bc3403aa0d3da9d5be433fc3f2f924",
+    "zion-ai-apps-hub/es/changelog.html": "19338faa658979681d613a27537de9f347e07ae0",
+    "zion-ai-apps-hub/es/legal-compliance-care.html": "e408d5b6e26a5d771268141f897535a9b66f2312",
+    "zion-ai-apps-hub/pt/case-studies.html": "13d5ab47533e20e4d24be4eee138d8f6eae3f40c",
+    "zion-ai-apps-hub/pt/changelog.html": "52e56aff2daa067781ed6ae7e6d3eab9d2a7deec",
+    "zion-ai-apps-hub/pt/legal-compliance-care.html": "4ebab21a6c778c354a6ab8d695f229e30537d6f8"
+  },
+  "evidence_artifacts": {
+    "release_report_path": "DIAGNOSTICS_MATRIX_RELEASE.md",
+    "release_report_git_blob": "eaf5d67ba8e7a2fcf53775efd65944cbdf9aa3d7",
+    "release_report_sha256": "3aba3ede413927d04ca1d6428652c2640df06db37168d6af6732f54954ae9b20",
+    "verification_receipt_path": "DIAGNOSTICS_MATRIX_VERIFICATION.json",
+    "postpublication_verification": "The final Supermemory completion checkpoint linked to parent 6BT7igZuD59TQW6RB8qePW records the evidence commit and independent HTTPS/source-byte checks for the report and this receipt; this receipt does not hash itself."
+  },
+  "mem0_status": "blocked_credential_encoding_no_new_call",
+  "rendered_browser_qa": "skipped_not_claimed",
+  "fresh_engine_self_tests": "not_run_in_this_content_only_cycle",
+  "third_party_repositories_modified": false,
+  "pages_dns_settings_changed": false
+}
