@@ -1,0 +1,2 @@
+/* Batch 99 only: preserve existing hub and satellite styles. */
+#discovery-form{display:block}#discovery-form label{display:block;margin:.8rem 0}#discovery-form input[type=checkbox]{display:inline-block;width:auto;margin-right:.5rem}#discovery-form fieldset{border:1px solid #7183a4;margin:1rem 0;padding:1rem}#handoff pre{white-space:pre-wrap;overflow-wrap:anywhere;padding:1rem;background:#0b1020}#ranked-results li{margin:1rem 0}button:disabled{opacity:.5;cursor:not-allowed}
