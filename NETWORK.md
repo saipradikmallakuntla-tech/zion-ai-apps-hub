@@ -46,3 +46,10 @@ This scope statement does not roll back the wider network or establish a new lau
 Retain the [restoration report](NETWORK_RESTORATION_BATCH.md), [Legal/Compliance/Care report](LEGAL_COMPLIANCE_CARE_RELEASE.md), [case-study report](CASE_STUDIES_CYCLE_RELEASE.md), [unfinished interlink report](NETWORK_INTERLINK_BATCH_RELEASE.md), [diagnostics report](DIAGNOSTICS_MATRIX_RELEASE.md) and [historical roadmap](NEXT_BATCH_ROADMAP.md) with their original dates and caveats. Satellite pre-Batch-99 archives remain unchanged and accessible through their README/NETWORK guides. Older reported tests are never new passing results in this editorial cycle.
 
 These materials are offline diagnostic documentation, not production benchmarks, professional advice, compliance certification, monitoring, an SLA, semantic correctness, browser conformance or exactly-once guarantees. Private executive decisions and service receipts remain in approved private tracking.
+
+## Legal, Compliance & Care editorial and promotion package — 2026-11-15
+
+- [Editorial plan: audiences, claims, review gates and four-part calendar](LEGAL_COMPLIANCE_CARE_EDITORIAL_PLAN.md)
+- [English, Spanish and Portuguese promotion copy and channel drafts](LEGAL_COMPLIANCE_CARE_PROMOTION_COPY.md)
+
+Repository publication is authorized; promotional assets are published for review, not approved for distribution. Human language/domain sign-off remains pending. These are nine non-advisory documentation practices, not nine apps. Utility interfaces remain English-only. Existing source decks, historical records and software are unchanged by this package.

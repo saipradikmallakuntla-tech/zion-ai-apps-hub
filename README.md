@@ -60,3 +60,10 @@ Existing source documentation describes local static operation without mandatory
 Keep captures, prompts, credentials, personal data, headers, cookie values and scenario inputs out of navigation URLs and public operational records. Review exports manually. These are diagnostic aids, not semantic-correctness proof, security/compliance certification, professional advice, monitoring, an SLA or an exactly-once guarantee. Synthetic reference values are not production benchmarks or customer endorsements.
 
 Español: el contenido editorial está completo en ES; las tres utilidades incluidas mantienen interfaces solo en inglés. Português: o conteúdo editorial está completo em PT; os três utilitários deste escopo continuam com interfaces somente em inglês.
+
+## Legal, Compliance & Care editorial and promotion package — 2026-11-15
+
+- [Editorial plan: audiences, claims, review gates and four-part calendar](LEGAL_COMPLIANCE_CARE_EDITORIAL_PLAN.md)
+- [English, Spanish and Portuguese promotion copy and channel drafts](LEGAL_COMPLIANCE_CARE_PROMOTION_COPY.md)
+
+Repository publication is authorized; promotional assets are published for review, not approved for distribution. Human language/domain sign-off remains pending. These are nine non-advisory documentation practices, not nine apps. Utility interfaces remain English-only. Existing source decks, historical records and software are unchanged by this package.
