@@ -67,3 +67,12 @@ Español: el contenido editorial está completo en ES; las tres utilidades inclu
 - [English, Spanish and Portuguese promotion copy and channel drafts](LEGAL_COMPLIANCE_CARE_PROMOTION_COPY.md)
 
 Repository publication is authorized; promotional assets are published for review, not approved for distribution. Human language/domain sign-off remains pending. These are nine non-advisory documentation practices, not nine apps. Utility interfaces remain English-only. Existing source decks, historical records and software are unchanged by this package.
+
+
+## Enterprise operations and translation parity — 2026-11-15 UTC
+
+Batch: `zion-multilingual-enterprise-operations-2026-11-15-en-es-pt`. [EN/ES/PT operational playbook](MULTILINGUAL_ENTERPRISE_OPERATIONS.md) · [Translation parity register](TRANSLATION_PARITY_REGISTER.md).
+
+Six matched O01–O06 sections extend the existing S01–S12/A01–A12 controls: 30 logical IDs and 90 locale entries. Written coverage is not human approval; language/domain review and channel-use approval remain pending. All three utility interfaces remain English-only.
+
+This append-only Markdown package announces no software change, new test result, campaign distribution or automatic synchronization. Preserve dated reports and archives; retain the [portfolio evidence and status register](PORTFOLIO_STATUS.md).
