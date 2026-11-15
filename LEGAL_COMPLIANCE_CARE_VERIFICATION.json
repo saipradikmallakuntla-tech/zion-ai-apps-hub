@@ -1,0 +1,50 @@
+{
+  "batch_id": "zion-legal-compliance-care-2026-11-15-en-es-pt",
+  "owner": "saipradikmallakuntla-tech",
+  "prior_supermemory_checkpoint": "qpfbhn56EHnttNJnV1o3vq",
+  "checked_at_utc": "2026-11-15T06:32:52.380739Z",
+  "supplemental_checked_at_utc": "2026-11-15T06:35:31.687412Z",
+  "chromium": "159.0.8154.6",
+  "passed": true,
+  "tls_verification": true,
+  "runtime_commits": {
+    "showcase": "cf2c34444543d21180d7a144ac8e12305913f64f",
+    "zion-ai-apps-hub": "40d7c2d1adf47d1a3f851cada39651f4a3154da2",
+    "llm-stream-inspector": "18950549a30c46e17422d1b3b17251c89328913b",
+    "agent-retry-safety-lab": "884ffae17124b92e4c26f2126738b582e1ad109d",
+    "cors-cookie-doctor": "f859f17b65472f153f19817210d5f69d875a80a0"
+  },
+  "pages": [
+    {"path":"zion-ai-apps-hub/","status":200,"sha256":"aba52476d3aaa5eecb008cdef7f7e1dc6f1f0ed655cf64bdec234ba686483d2a","source_bytes_match":true,"metadata_passed":true,"no_js_passed":true,"keyboard_header_links":7},
+    {"path":"zion-ai-apps-hub/legal-compliance-care.html","status":200,"sha256":"e6c06abd9691f0b11306cb1fc20f175ad727c4c0556a8869c06d40225da1afc9","source_bytes_match":true,"metadata_passed":true,"no_js_passed":true,"keyboard_header_links":6},
+    {"path":"zion-ai-apps-hub/es/","status":200,"sha256":"beb3fbd15bafa4efa9129747b9571268787c8ea37a6372f4843a47488511182b","source_bytes_match":true,"metadata_passed":true,"no_js_passed":true,"keyboard_header_links":7},
+    {"path":"zion-ai-apps-hub/es/legal-compliance-care.html","status":200,"sha256":"84d35fdff956eaedabdc89fbf40bbe06b3aff0c39cd2a279ba98af5361a97c04","source_bytes_match":true,"metadata_passed":true,"no_js_passed":true,"keyboard_header_links":6},
+    {"path":"zion-ai-apps-hub/pt/","status":200,"sha256":"f34ce83344961be6ea7cad3ee1df3eaa974289bab6acd64cc13a75b58dd66c5e","source_bytes_match":true,"metadata_passed":true,"no_js_passed":true,"keyboard_header_links":7},
+    {"path":"zion-ai-apps-hub/pt/legal-compliance-care.html","status":200,"sha256":"6af7f9ac2e1e982377ce1d3a4e8cffa62b6d7eabdb89351bb0788e74cd23e1f9","source_bytes_match":true,"metadata_passed":true,"no_js_passed":true,"keyboard_header_links":6},
+    {"path":"llm-stream-inspector/","status":200,"sha256":"1c8f9ef542b2e6c73910ade6f21084ea70237dbf72e1ef5907df08214e5d6028","source_bytes_match":true,"metadata_passed":true,"no_js_passed":true,"keyboard_header_links":5},
+    {"path":"agent-retry-safety-lab/","status":200,"sha256":"0c427e37d9bdf877af4e95c7667f6b8d97818b6aad81e9dec250252be650fd3a","source_bytes_match":true,"metadata_passed":true,"no_js_passed":true,"keyboard_header_links":5},
+    {"path":"cors-cookie-doctor/","status":200,"sha256":"55258ecf29d58f35544e773cd72d8a170654baaee1ab2e45e6b77234ab820020","source_bytes_match":true,"metadata_passed":true,"no_js_passed":true,"keyboard_header_links":5}
+  ],
+  "runtime_assets": [
+    {"path":"zion-ai-apps-hub/styles.css","status":200,"source_bytes_match":true,"sha256":"283a8efa9fedf747b022ff06c56a6b4b789f12c1b37326c2923f84000f8c65f1"},
+    {"path":"zion-ai-apps-hub/app.js","status":200,"source_bytes_match":true,"sha256":"fd8ea26d164e853f7c9bf2e3631c1df145044ad7bc4a1e8d126e86d17c9e4fc5"},
+    {"path":"llm-stream-inspector/styles.css","status":200,"source_bytes_match":true,"sha256":"d036d28217ed133e8c86097d66ea18ae656c2a67b3070d70c7f6d8c05d0d00ca"},
+    {"path":"llm-stream-inspector/app.js","status":200,"source_bytes_match":true,"sha256":"7a3fa0b128eaaf0792005cbd57b098b78b77bee97cab6fe19a2fb6fae63a1596"},
+    {"path":"agent-retry-safety-lab/styles.css","status":200,"source_bytes_match":true,"sha256":"dc35901f00d6333b1d9b6b165cf4403c25e54fc1666c9e961fcdbfe2173c4602"},
+    {"path":"agent-retry-safety-lab/app.js","status":200,"source_bytes_match":true,"sha256":"961333002f3304a6f2750aad35e783b64130199667d6c44d0790259794d48a92"},
+    {"path":"cors-cookie-doctor/styles.css","status":200,"source_bytes_match":true,"sha256":"5683aa1984407445e746fc621018486ad1529ac65b9507dd1d5ff672fbd07145"},
+    {"path":"cors-cookie-doctor/app.js","status":200,"source_bytes_match":true,"sha256":"113d2c53419793a7041ecd03f60a373393d8ca76e7d55df992d1a7bd67157ef4"}
+  ],
+  "base_url": "https://saipradikmallakuntla-tech.github.io/",
+  "explicit_index_urls": {"paths":["zion-ai-apps-hub/index.html","zion-ai-apps-hub/es/index.html","zion-ai-apps-hub/pt/index.html"],"all_status_200":true,"all_source_bytes_match":true},
+  "checks": {"static_assertions":228,"existing_localization_suites":3,"viewports":[320,390,768,900,1440],"js_enabled_and_disabled_viewport_checks":90,"no_js_language_switches":18,"no_js_satellite_returns":3,"no_js_homepage_showcase_links":3,"satellite_engine_tests":{"stream":9,"retry":10,"cors":14},"unexpected_requests":[],"page_errors":[],"errors":[]},
+  "pages_builds": {
+    "zion-ai-apps-hub":{"id":1371083819,"status":"built","commit":"40d7c2d1adf47d1a3f851cada39651f4a3154da2","updated_at":"2026-11-15T06:31:30Z"},
+    "llm-stream-inspector":{"id":1371085492,"status":"built","commit":"18950549a30c46e17422d1b3b17251c89328913b","updated_at":"2026-11-15T06:32:28Z"},
+    "agent-retry-safety-lab":{"id":1371085485,"status":"built","commit":"884ffae17124b92e4c26f2126738b582e1ad109d","updated_at":"2026-11-15T06:32:23Z"},
+    "cors-cookie-doctor":{"id":1371085483,"status":"built","commit":"f859f17b65472f153f19817210d5f69d875a80a0","updated_at":"2026-11-15T06:32:21Z"}
+  },
+  "analysis_engines_and_styles_unchanged": true,
+  "private_tracking": {"notion":{"attempts":1,"status":"blocked_http_400","retried":false},"mem0":{"attempts":1,"status":"blocked_credential_encoding","retried":false}},
+  "limitations":"Dated observations, not monitoring, professional advice, certification or guarantees."
+}
