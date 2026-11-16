@@ -227,3 +227,77 @@ The portfolio owner must designate actual EN/ES/PT reviewers, relevant domain re
 A changed B/H source, wording, notice or destination reopens affected locale, domain, receiver and channel decisions; identify affected IDs and prepare an attributable approved revision. Existing S/A/O text is outside this correction scope and remains unchanged. Unsupported claims, sensitive evidence or missing authorization/recipient trigger a private hold under the existing operations controls, not an automatic incident service. Keep Batch 22/99 gaps and unfinished architecture evidence explicit; recover authentic receipts only.
 
 Exactly the approved 15 Markdown paths may change. Preserve every existing updated body as a prefix, all other Markdown, and all non-Markdown files. No Mem0 call or credential workaround, deletion, extra repository, duplicate tracker, external send/post, scheduling, runtime change, browser/viewport, hashing, unit/engine test or live probe is authorized. Use the existing executive tracker and one new linked continuation; report actual publication, independent read-back, provider ingestion and human decisions separately.
+
+
+## 11. Batch-22 parity and retained-inventory reconciliation — 2026-11-16 UTC
+
+Batch: `zion-batch-22-content-interlinking-2026-11-16-en-es-pt`; extension P-B22-v1. Preserve every preceding body, count, source identity, gate and dated authorization. At the captured baseline this actual register ended at 41 IDs/123 entries, although navigation described later R/TR/G coverage. This approved extension records those already-written units now, without recreating them or fabricating earlier register/checkpoint receipts. The current [fourteen-path release manifest](BATCH_22_CONTENT_RELEASE.md) governs this publication; no Notion or Mem0 operation is included.
+
+### 11.1 Attributable source revisions
+
+These are GitHub-returned file identities, not locally computed hashes. R/TR/G point to the captured unchanged source portions at hub commit 43cc13971cb46639aed9c4497cd702463c3c77b9; the chronicle receives a later appendix but its retained R01–R10 wording is not rewritten. W22/REL22 were actually published at commit 7e1fb55ee351e075f0a250629ab00149a8c8e3d9. Actual final commits and independent full API read-backs belong in the execution handoff and linked continuation, not invented future self-identities here.
+
+| Source key | Document, locale sections and editorial revision | GitHub-returned source blob |
+| --- | --- | --- |
+| R | [Chronicle R01–R10](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/43cc13971cb46639aed9c4497cd702463c3c77b9/MULTILINGUAL_RELEASE_CHRONICLE.md), #en/#es/#pt; R-v1 | `838b962654e72ab08f54d48713ebb76c21c8b67d` |
+| TR | [Runbook TR01–TR06](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/43cc13971cb46639aed9c4497cd702463c3c77b9/SERVICE_TRIAGE_ESCALATION_RUNBOOK.md), #en/#es/#pt; TR-v1 | `0301f00863c3773eafe4541b7ec88f473a18127f` |
+| G | [Glossary G01–G14](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/43cc13971cb46639aed9c4497cd702463c3c77b9/SHARED_TERMINOLOGY_LOCALIZATION_GLOSSARY.md), #en/#es/#pt; G-v1 | `815ecfc9cec5bf2782f6f701d669f62d003971cd` |
+| W22 | [Batch-22 recipes B22-W01–B22-W03](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/7e1fb55ee351e075f0a250629ab00149a8c8e3d9/BATCH_22_WORKFLOW_RECIPES.md), #en/#es/#pt; B22-W-v1 | `79012ac7d505f81f7711a5fcf1261ad7f9d61660` |
+| REL22 | [Batch-22 release summary B22-R01](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/7e1fb55ee351e075f0a250629ab00149a8c8e3d9/BATCH_22_CONTENT_RELEASE.md), #en/#es/#pt; B22-R-v1 | `3d3460c3b77333c5e778c37bb6869b4e96b67abf` |
+
+Each locale cell below means source key + content ID + that document's matching language section at the captured revision. W/P remains complete written wording with human language/domain decisions pending, not certification or distribution approval. The release manifest and this English register are not additional translated IDs. Reused H-recipes, T-controls, B-briefs and chronicle cross-references are not counted again.
+
+### 11.2 Separate ID and locale states
+
+| ID / source key | EN | ES | PT |
+| --- | --- | --- | --- |
+| R01 / R | R01 EN W/P | R01 ES W/P | R01 PT W/P |
+| R02 / R | R02 EN W/P | R02 ES W/P | R02 PT W/P |
+| R03 / R | R03 EN W/P | R03 ES W/P | R03 PT W/P |
+| R04 / R | R04 EN W/P | R04 ES W/P | R04 PT W/P |
+| R05 / R | R05 EN W/P | R05 ES W/P | R05 PT W/P |
+| R06 / R | R06 EN W/P | R06 ES W/P | R06 PT W/P |
+| R07 / R | R07 EN W/P | R07 ES W/P | R07 PT W/P |
+| R08 / R | R08 EN W/P | R08 ES W/P | R08 PT W/P |
+| R09 / R | R09 EN W/P | R09 ES W/P | R09 PT W/P |
+| R10 / R | R10 EN W/P | R10 ES W/P | R10 PT W/P |
+| TR01 / TR | TR01 EN W/P | TR01 ES W/P | TR01 PT W/P |
+| TR02 / TR | TR02 EN W/P | TR02 ES W/P | TR02 PT W/P |
+| TR03 / TR | TR03 EN W/P | TR03 ES W/P | TR03 PT W/P |
+| TR04 / TR | TR04 EN W/P | TR04 ES W/P | TR04 PT W/P |
+| TR05 / TR | TR05 EN W/P | TR05 ES W/P | TR05 PT W/P |
+| TR06 / TR | TR06 EN W/P | TR06 ES W/P | TR06 PT W/P |
+| G01 / G | G01 EN W/P | G01 ES W/P | G01 PT W/P |
+| G02 / G | G02 EN W/P | G02 ES W/P | G02 PT W/P |
+| G03 / G | G03 EN W/P | G03 ES W/P | G03 PT W/P |
+| G04 / G | G04 EN W/P | G04 ES W/P | G04 PT W/P |
+| G05 / G | G05 EN W/P | G05 ES W/P | G05 PT W/P |
+| G06 / G | G06 EN W/P | G06 ES W/P | G06 PT W/P |
+| G07 / G | G07 EN W/P | G07 ES W/P | G07 PT W/P |
+| G08 / G | G08 EN W/P | G08 ES W/P | G08 PT W/P |
+| G09 / G | G09 EN W/P | G09 ES W/P | G09 PT W/P |
+| G10 / G | G10 EN W/P | G10 ES W/P | G10 PT W/P |
+| G11 / G | G11 EN W/P | G11 ES W/P | G11 PT W/P |
+| G12 / G | G12 EN W/P | G12 ES W/P | G12 PT W/P |
+| G13 / G | G13 EN W/P | G13 ES W/P | G13 PT W/P |
+| G14 / G | G14 EN W/P | G14 ES W/P | G14 PT W/P |
+| B22-W01 / W22 | B22-W01 EN W/P | B22-W01 ES W/P | B22-W01 PT W/P |
+| B22-W02 / W22 | B22-W02 EN W/P | B22-W02 ES W/P | B22-W02 PT W/P |
+| B22-W03 / W22 | B22-W03 EN W/P | B22-W03 ES W/P | B22-W03 PT W/P |
+| B22-R01 / REL22 | B22-R01 EN W/P | B22-R01 ES W/P | B22-R01 PT W/P |
+
+### 11.3 Protected meanings, destinations and counting
+
+Every added row inherits N0, N4–N8 and the existing T0–T13 meanings as relevant. R preserves historical dates, reported versus unavailable evidence and separate processing/review states. TR preserves manual intake, proposed roles, actual private acknowledgment and stop rules. G01–G14 map one-to-one to T0–T13, without adding new policies. B22-W01 additionally requires T1/N1; B22-W02 T2/N2; B22-W03 T3/N3; all three require T6–T8/T10–T12 and manual review/minimization. B22-R01 requires T0/T5/T7/T10/T11 and the release-evidence distinction below. These mappings apply to corresponding EN/ES/PT wording, not identical word counts.
+
+D9 is the new cookbook's [EN](BATCH_22_WORKFLOW_RECIPES.md#en), [ES](BATCH_22_WORKFLOW_RECIPES.md#es) and [PT](BATCH_22_WORKFLOW_RECIPES.md#pt) sections; D10 is the new release record's [EN](BATCH_22_CONTENT_RELEASE.md#en), [ES](BATCH_22_CONTENT_RELEASE.md#es) and [PT](BATCH_22_CONTENT_RELEASE.md#pt) summaries. R/TR/G keep their source-language sections, existing H/B links and shared portfolio/continuity destinations. New links are Markdown navigation, not evidence transfer, fresh website checks or automatic synchronization. Keep technical names, IDs and canonical destinations literal; no sensitive or diagnostic URL parameters.
+
+Retained S/A/O/B/H: 41 IDs/123 entries. Already-written R: 10/30, giving 51/153. TR: 6/18 and G: 14/42 bring the reconciled pre-Batch-22 inventory to 71/213. The three new workflow IDs add nine entries and B22-R01 adds three: **75 logical IDs and 225 written/pending locale entries total, 75 per language**. This extension accounts for 30 already-written IDs/90 entries and four newly written IDs/twelve entries; it does not claim all 102 entries were newly authored in Batch-22 or approved. English operational guides and dated navigation appendices are excluded from translated-unit counting.
+
+The new BATCH_22_CONTENT_RELEASE.md resolves a previously absent documentation path with a newly dated editorial record; it does not recover or recreate the missing original historical Batch-22 verification artifact. The original historical receipt remains unavailable. Batch-99 and unfinished architecture/interlink evidence remain separate gaps. Preserve all prior N7 observations as dated history, not false new software results.
+
+### 11.4 Actual review queue and publication boundary
+
+Content operations maintains source/ID/locale mappings; the portfolio owner designates real EN/ES/PT language/domain reviewers, receivers and channel owners. All current cells remain W/P. Record actual decisions privately with exact source revision, ID/locale, wording/notice/destination findings, reviewer/receiver identity and role, decision, UTC date, evidence and next owner. Public records remain sanitized. Changed source, wording, notice or destination reopens affected gates; publication, API read-back and provider processing cannot approve a cell. Distribution stays on hold pending real decisions and separate authorization.
+
+Only the approved fourteen Markdown paths may change, with complete original bodies retained, two additions, twelve dated updates and no deletion. Source decks, promotion copy, operations, briefs, H-recipes, runbook, glossary, archives, historical reports and all non-Markdown files remain unchanged. No code/test/hash/browser/live-probe scripts, HTML/CSS/JavaScript, runtime/configuration, Pages/DNS, Notion/Mem0 calls, account workarounds, automatic synchronization, live diagnosis or external distribution is part of this publication. Save one deduplicated linked Supermemory continuation only after the real fourteen-path publication/read-back, then independently retrieve it and report actual processing states.
