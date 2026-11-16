@@ -80,3 +80,18 @@ These dated pointers complete the missing hub navigation portion of the precedin
 The runbook is the non-technical entry point; H00–H06 remain the detailed route authority. Stream questions start with structural saved evidence (outgoing H01/H02); uncertain completion with Retry (H03/H04); response-access/cookie questions with CORS (H05/H06). Mixed/unsupported requests return to the portfolio owner through H00. Receiving people remain unassigned. A real receiver must acknowledge purpose, exact source revision, permitted summary, uncertainty and next owner privately; a link click is not acceptance.
 
 Use synthetic or explicitly approved minimized summaries after manual review. No credentials, raw captures, prompts, headers/cookies, real keys, customer data or private receipts in public Markdown or URLs. Navigation is not shared state, an automatic sanitizer, a notification service or replay authorization. All three utility interfaces remain English-only. Preserve historical evidence gaps and archives. This package changes only 13 approved Markdown paths, with no deletion, code/test/hash/browser/live-probe work, Notion/Mem0 calls, automated synchronization or external distribution. One linked Supermemory continuation records actual receipts separately from pending human decisions.
+
+
+## Batch-22 workflow recipes and editorial closeout — 2026-11-16 UTC
+
+Batch: `zion-batch-22-content-interlinking-2026-11-16-en-es-pt`. Cookbook: [English](BATCH_22_WORKFLOW_RECIPES.md#en) · [Español](BATCH_22_WORKFLOW_RECIPES.md#es) · [Português](BATCH_22_WORKFLOW_RECIPES.md#pt). [Newly dated editorial release record](BATCH_22_CONTENT_RELEASE.md) · [Portfolio/evidence status](PORTFOLIO_STATUS.md) · [Locale/review register](TRANSLATION_PARITY_REGISTER.md).
+
+| Sibling node | Repository entry | Reciprocal network guide | Cookbook entry and existing routes |
+| --- | --- | --- | --- |
+| Stream | [README](https://github.com/saipradikmallakuntla-tech/llm-stream-inspector/blob/main/README.md) | [NETWORK](https://github.com/saipradikmallakuntla-tech/llm-stream-inspector/blob/main/NETWORK.md) | B22-W01; H01/H02 |
+| Retry | [README](https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab/blob/main/README.md) | [NETWORK](https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab/blob/main/NETWORK.md) | B22-W02; H03/H04 |
+| CORS | [README](https://github.com/saipradikmallakuntla-tech/cors-cookie-doctor/blob/main/README.md) | [NETWORK](https://github.com/saipradikmallakuntla-tech/cors-cookie-doctor/blob/main/NETWORK.md) | B22-W03; H05/H06 |
+
+The hub routes questions; the three utilities stay independent. The [H00–H06 plan](CROSS_REPOSITORY_HANDOFF_PLAN.md), [chronicle](MULTILINGUAL_RELEASE_CHRONICLE.md) and [continuity guide](CHECKPOINT_CONTINUITY.md) retain their roles. Links navigate only: no shared diagnostic state, secret-carrying query strings, automatic sanitizer, receiver acceptance or replay permission. Minimize and review permitted summaries manually; designate actual receivers.
+
+The fourteen-path Markdown package adds no runtime route or verified live-edge claim. New documentation at the historically missing Batch-22 path is not recovery of its original verification receipt; Batch-99 and architecture/interlink gaps remain explicit. Written coverage becomes 75 IDs / 225 entries after the dated reconciliation, not 225 approvals. Human language/domain/channel decisions remain pending and utility interfaces remain English-only. No software, tests, hashes, browser/live checks, Pages/DNS, Notion/Mem0 calls or distribution are included.
