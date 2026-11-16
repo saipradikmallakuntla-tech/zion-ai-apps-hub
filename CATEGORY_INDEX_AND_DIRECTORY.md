@@ -152,3 +152,23 @@ Exact approved GitHub package: this index; README.md and NETWORK.md in each of s
 Only existing main branches and the existing private Notion tracker are publication destinations. Save at most one deduplicated linked continuation in `zion_app_network`, canonical key `zion-category-index-executive-tracker-2026-11-16-final`, parented to the verified Batch-22 continuation, and independently retrieve it. Report actual IDs, timestamps and processing states only after real responses; do not invent a browser URL or prefill a self-receipt.
 
 No HTML/CSS/JavaScript/code/test/runtime/configuration/Pages/CNAME/DNS edits; no test, byte-hash, browser or live-probe scripts; no further Mem0 calls, credential/account workarounds, third-party repositories, external-site browsing, upstream registration, automated synchronization or external distribution. API/document read-back is not software verification or human approval.
+
+
+## Saved handoff directory extension — 2026-11-16 UTC
+
+Batch: `zion-saved-handoff-discovery-2026-11-16-en-es-pt`. Preserve the complete CAT-v1 directory above as its dated 49-file snapshot. The subsequent operational log brought the reviewed pre-batch inventory to 50 files; the new saved-handoff guide brings the current inventory to **51 Markdown files: 30 hub, five each in Stream/Retry/CORS, two each in Token/Schema/Webhook**. Repository categories and document-type definitions remain unchanged; these counts are not products or integrations.
+
+The following two rows extend the retained directory rather than recreate its existing 49 assets:
+
+| Hub asset / primary category | Type | Coverage / state | Purpose |
+| --- | --- | --- | --- |
+| [OPERATIONAL_SERVICE_CYCLE_LOG.md](OPERATIONAL_SERVICE_CYCLE_LOG.md) / PORT | OPS / EVIDENCE | EN operational record; earlier cycle | Sanitized aggregate service-cycle history; not a new translated unit or a new file in this batch |
+| [SAVED_HANDOFF_PLAYBOOKS_AND_DISCOVERY_PROMOS.md](SAVED_HANDOFF_PLAYBOOKS_AND_DISCOVERY_PROMOS.md) / PORT | FLOW / LOCALE | EN / neutral ES / PT SH01–SH06; W/P | Free discovery checklists, seven-node routing, manually saved Markdown handoff template, actual acknowledgment/holds, optional human team/commercial scoping and reusable promotion drafts |
+
+Guide entry points: [English](SAVED_HANDOFF_PLAYBOOKS_AND_DISCOVERY_PROMOS.md#en) · [Español neutro](SAVED_HANDOFF_PLAYBOOKS_AND_DISCOVERY_PROMOS.md#es) · [Português](SAVED_HANDOFF_PLAYBOOKS_AND_DISCOVERY_PROMOS.md#pt). Its SH02 tables point to README/NETWORK in every owned node; all fourteen entry points link back to the guide. Existing peer links, [B99-R01](BATCH_99_CATALOG_ROUTING_GUIDE.md), [H00–H06](CROSS_REPOSITORY_HANDOFF_PLAN.md), [runbook](SERVICE_TRIAGE_ESCALATION_RUNBOOK.md) and [glossary](SHARED_TERMINOLOGY_LOCALIZATION_GLOSSARY.md) keep their distinct authorities.
+
+Six new SH units/eighteen locale entries extend 79/237 to **85 logical IDs / 255 written-pending entries, 85 per language**. The operational log, directory/continuity/status/chronicle appendices and repeated navigation do not add translated IDs. Written coverage is not human approval or UI localization; all six utility interfaces remain documented as English-only. Neutral ES and PT without a regional promise remain.
+
+Saved means a person retains reviewed Markdown privately, not an app persistence feature, common backend, automatic sanitizer or email trigger. Free self-serve discovery requires no purchase. Optional team/commercial discussion requires verified parties, actual acknowledgment and separate agreed scope/terms; no available offering, price, response time or SLA is promised. Keep private tracker/checkpoint receipts and diagnostic inputs out of public Markdown/URLs. Human language/domain, receiver and channel decisions remain pending; external distribution remains on hold.
+
+This newly approved batch is **twenty Markdown paths: one addition and nineteen append-only updates, zero deletions**. Preserve earlier scopes, counts, archives, source bodies and original Batch-22/Batch-99/unfinished architecture evidence gaps. No code/HTML/CSS/JavaScript/test/runtime/configuration/Pages/DNS edits, test/hash/browser/live-probe scripts, external-domain browsing, third-party work, further Mem0 calls, automatic synchronization or external distribution. Record actual publication/API read-back, existing-tracker update and one linked continuation only after real responses.
