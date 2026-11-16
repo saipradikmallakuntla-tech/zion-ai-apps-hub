@@ -323,3 +323,55 @@ Preserve existing protected terminology, notices and literal product/ID/destinat
 Content operations maintains source/ID/locale mapping; the portfolio owner designates actual language/domain reviewers, receivers and channel owners. Privately record exact revision, ID/locale, terminology/notice/destination findings, actual identity/role, decision, UTC date, evidence and next action. Publication/read-back and provider processing cannot approve a locale cell. Distribution remains on hold. Original historical Batch-22, historical Batch-99 and unfinished architecture/interlink evidence gaps remain open.
 
 Owner authorization covers this nineteen-path Markdown reconciliation only: one addition, eighteen updates, zero deletions. Preserve all earlier source bodies, dates, caveats, archives and unrelated files. No code/HTML/CSS/JavaScript/test/runtime/configuration/Pages/DNS changes; no test, byte-hash, browser or live-probe scripts; no further Mem0 calls or credential work, third-party repositories, external-site browsing, automated synchronization or external distribution. API publication/read-back and provider processing do not supply human approval or software verification.
+
+
+## 13. Saved handoff SH01–SH06 parity extension — 2026-11-16 UTC
+
+Batch: `zion-saved-handoff-discovery-2026-11-16-en-es-pt`; extension P-SH-v1. Preserve every preceding source row, scope, count, gate and dated authorization as history. This current owner-approved package spans exactly seven owned repositories and twenty Markdown paths: one new saved-handoff guide, fourteen README/NETWORK appendices and five hub register appendices. Existing S/A/O/B/H/R/TR/G/B22/B99 source wording remains unchanged. This English register addendum is not itself a newly translated unit.
+
+### 13.1 Exact SH source and locale identities
+
+The source is [SAVED_HANDOFF_PLAYBOOKS_AND_DISCOVERY_PROMOS.md at its actual first publication commit](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/a4407226e0b519d25a93ea3811b1570c9d20cd1b/SAVED_HANDOFF_PLAYBOOKS_AND_DISCOVERY_PROMOS.md). Actual source commit: `a4407226e0b519d25a93ea3811b1570c9d20cd1b`; GitHub-returned source blob: `a34ff85f7bb0e5e1ad851a5fd2330ea9e5d75b68`. No local byte-hash script is used. Its three full language portions keep separate review decisions despite sharing one file identity.
+
+| Source key | Exact locale/source portion | Coverage |
+| --- | --- | --- |
+| SH-EN | [English source](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/a4407226e0b519d25a93ea3811b1570c9d20cd1b/SAVED_HANDOFF_PLAYBOOKS_AND_DISCOVERY_PROMOS.md#en) | EN SH01–SH06, full prose/checklists/template/promotion drafts |
+| SH-ES | [Neutral Spanish source](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/a4407226e0b519d25a93ea3811b1570c9d20cd1b/SAVED_HANDOFF_PLAYBOOKS_AND_DISCOVERY_PROMOS.md#es) | ES SH01–SH06, full counterparts; no redirect to English |
+| SH-PT | [Portuguese source](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/a4407226e0b519d25a93ea3811b1570c9d20cd1b/SAVED_HANDOFF_PLAYBOOKS_AND_DISCOVERY_PROMOS.md#pt) | PT SH01–SH06, full counterparts; no new regional promise |
+
+### 13.2 Six IDs and eighteen separate written/pending cells
+
+W/P retains its original meaning: complete written source with actual human language and relevant domain review pending. The source key, literal SH-ID and locale form each cell's identity. No actual reviewer, acknowledgment, decision or date is invented.
+
+| ID / required unit | EN / SH-EN | ES / SH-ES | PT / SH-PT | Required protected meanings and review focus |
+| --- | --- | --- | --- | --- |
+| SH01 free self-serve discovery | SH01 EN W/P | SH01 ES W/P | SH01 PT W/P | Purchase-free documentation checklist; bounded question, source, assumptions, synthetic/minimized data; no automatic follow-up or permission to execute |
+| SH02 seven-node routing | SH02 EN W/P | SH02 ES W/P | SH02 PT W/P | All seven owned README/NETWORK pairs and six utility limitations; existing B99-R01/H routes retained; no live-integration or UI-localization claim |
+| SH03 structured saved packet | SH03 EN W/P | SH03 ES W/P | SH03 PT W/P | Matching private-record fields: purpose/revision/locale, permitted summary, facts/unknowns, sender/receiver, data review, owner/action/stops, actual decisions/dates and closure |
+| SH04 acknowledgment/hold/closure | SH04 EN W/P | SH04 ES W/P | SH04 PT W/P | Manual states, real receiver acknowledgment, missing-recipient hold, actual closure note and reopening on source/notice/destination changes; no implied notification or deadline |
+| SH05 optional team/commercial scoping | SH05 EN W/P | SH05 ES W/P | SH05 PT W/P | Free discovery is not a paywall; verified parties and separately agreed scope/terms; no available service, price, response time, SLA, certification or professional/security promise |
+| SH06 reusable promotion drafts | SH06 EN W/P | SH06 ES W/P | SH06 PT W/P | Free-discovery, saved-context and team-review drafts in each language; written/pending, not sent/scheduled, endorsed, measured or channel-approved |
+
+SH06 contains three short copy variants in each language, nine sub-assets overall; they remain part of the one SH06 logical unit and three locale cells, not nine additional IDs. Repeated source references in navigation, registers and chronicle add no translated units.
+
+### 13.3 Notice, terminology and destination alignment
+
+Retain N0/N4–N8 and T5–T13 as relevant, with the current seven-owned-repository scope and all six English-only utility interfaces explicitly distinguished from the older four-repository snapshots. Product-specific limits remain local in every SH02 language table: Stream structure/valid JSON is not semantic correctness or execution permission and unavailable timing is not zero; Retry uncertainty is not proof of no server effect or exactly-once execution; CORS is not authentication, authorization or consent and cookie eligibility is not storage/transmission proof. Token estimates are heuristic, not exact tokens/billing/capacity guarantees; Schema observations are conservative/partial, not full validation or compatibility/provider-portability certification; Webhook is an offline sequential model without a live receiver, signature verification or durable atomic security guarantee.
+
+| EN meaning | ES counterpart | PT counterpart | Required interpretation |
+| --- | --- | --- | --- |
+| Manually saved Markdown handoff | Traspaso Markdown guardado manualmente | Encaminhamento Markdown salvo manualmente | A person retains a reviewed record privately; no newly implemented persistence, shared state, sanitizer, email trigger, synchronization or replay capability |
+| Free self-serve discovery | Descubrimiento autónomo gratuito | Descoberta gratuita por conta própria | The documentary checklist requires no purchase, lead form, intake email or automatic follow-up |
+| Optional human team/commercial scoping | Delimitación humana opcional de equipo/comercial | Delimitação humana opcional de equipe/comercial | Real parties, permission, acknowledgment and separate agreed scope/terms; no invented customer, meeting, service availability, fee or response promise |
+
+All new public destinations are Markdown sources inside the seven owned GitHub repositories. Match SH-EN/ES/PT section links and preserve literal repository/product names, IDs and technical terms. SH02 links every node's README/NETWORK; all fourteen entry points link back to the guide. Existing B99-R01, H00–H06, runbook, glossary, operations, adoption, portfolio and continuity authorities remain distinct. Links carry no diagnostic inputs, tracking parameters, private evidence, notifications, acknowledgment or replay permission. Existing destinations in older retained text are not exercised or changed. Actual private tracker/checkpoint identities and receipts remain private.
+
+### 13.4 Counting, review queue and current boundary
+
+Retained written coverage: 79 logical IDs/237 locale entries. Add six SH IDs/eighteen distinct entries for **85 logical IDs / 255 written-pending locale entries total, 85 per language**. The English operational log adds no translated ID; the reviewed 50-file Markdown inventory becomes 51 files after the guide addition, including 30 hub files. File counts, content IDs, locale cells, human approvals and product counts are separate.
+
+Content operations maintains the eighteen SH cells and their exact immutable source mapping. The portfolio owner still must designate actual EN/ES/PT language/domain reviewers, receiving people and channel owners. Privately record ID/locale/sub-asset, exact revision, terminology/notice/destination findings, real identity/role, decision, UTC date, evidence and next owner/action. Publication, API read-back and provider ingestion/derived processing do not approve a cell or acknowledge a handoff. Changed source, wording, notices or destinations reopen affected language/domain/receiver/channel gates. External distribution remains on hold pending actual decisions and separate authorization.
+
+The current package changes exactly twenty Markdown paths with complete original bodies retained, one addition, nineteen append-only updates and no deletion. Preserve all source decks, earlier promotion copy, briefs, H routes, catalog/recipes, runbook/glossary, reports, roadmap, archives and all non-Markdown files. Original historical Batch-22 verification, historical Batch-99 final evidence and unfinished architecture/interlink completion remain separate unresolved gaps. Finish independent full twenty-file API read-back and actual commit/inventory reconciliation, update only the existing Notion tracker in place, then save/retrieve one deduplicated parent-linked continuation under `zion_app_network`; do not prefill future self-receipts or duplicate prior successes.
+
+No code/HTML/CSS/JavaScript/test/runtime/configuration/Pages/CNAME/DNS edits; no test, byte-hash, browser or live-probe scripts; no external-domain browsing, third-party work, further Mem0 calls or credential work, automated email/CRM triggers, synchronization, production replay or external sends/posts. Documentary read-back is not software verification, professional approval, commercial authorization or a human review receipt.
