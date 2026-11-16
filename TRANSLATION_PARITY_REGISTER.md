@@ -169,3 +169,61 @@ On any source, wording, notice or destination change: identify impacted S/A/O ID
 Exactly two new hub documents plus the dated PORTFOLIO_STATUS.md appendix and eight README/NETWORK pointer appendices are authorized, eleven Markdown paths total. Preserve every existing body as a prefix and preserve all other files, including the three archives and dated release/roadmap records. No deletion, non-Markdown change, browser/test script, live probe, new repository, Pages/DNS/configuration update, external send/post or campaign scheduling is authorized. Do not call Mem0 or attempt credential/account workarounds.
 
 Document observations are limited to written coverage, source identities, mapped terminology/notices/destinations and independent API read-back after publication. Historical tests keep their original dates and caveats. Ingestion status is distinct from derived-memory completion, professional approval and software behavior. The [portfolio register](PORTFOLIO_STATUS.md) remains the chronology/evidence-gap authority; the [restoration controls](MULTILINGUAL_CONTENT_RESTORATION.md) and [editorial claims plan](LEGAL_COMPLIANCE_CARE_EDITORIAL_PLAN.md) retain their existing roles.
+
+
+## 10. Adoption briefs and handoff parity extension — 2026-11-16 UTC
+
+Batch: `zion-enterprise-adoption-handoff-2026-11-16-en-es-pt`; extension P-v2. The entire P-v1 body above, including its dated counts, gates and eleven-path authorization, is retained as historical context. This new owner-authorized batch is exactly 15 Markdown paths, five additions and ten updates, zero deletions. Existing S/A/O wording and all 90 original locale entries remain unchanged. The English operational register is not itself represented as a translated document; the five new source documents provide complete EN, neutral ES and PT text.
+
+B01–B04 are four whole adoption briefs, each with six required fields in each language: audience/decision; appropriate use/prerequisites; proposed adoption discussion; handoff/documentary acceptance; limits/language/evidence; accountable next steps. H00 is hub routing plus shared ownership, private record, acknowledgment/hold and stop rules; H01–H06 are six utility handoff recipes. Thus the extension adds **11 logical IDs and 33 written/pending locale entries**: 12 B + 21 H. The combined register has **41 logical IDs and 123 locale entries**, not 123 approvals, products, executed pilots or real handoffs.
+
+### 10.1 Actual source identities
+
+The Git blob identifiers below were returned by GitHub while preparing these exact document bodies; no hashing script was run. Whole-file identities contain three separate language portions and do not merge their review decisions. Publication commits and independent read-back receipts are recorded only after execution in private tracking and Git history.
+
+| Source key | Document and coverage | Exact GitHub-returned blob / editorial revision |
+| --- | --- | --- |
+| B01 | [Hub adoption brief](ENTERPRISE_ADOPTION_BRIEF.md), EN/ES/PT B01 | `4b88bb536530c8133b51953014f536af73e1cf86`; B01-v1 |
+| B02 | [Stream adoption brief](https://github.com/saipradikmallakuntla-tech/llm-stream-inspector/blob/main/ENTERPRISE_ADOPTION_BRIEF.md), EN/ES/PT B02 | `bab56f2d4349f337eb0379ee00f1194b079031d2`; B02-v1 |
+| B03 | [Retry adoption brief](https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab/blob/main/ENTERPRISE_ADOPTION_BRIEF.md), EN/ES/PT B03 | `3858a51e3b889cde2baaf9483b1842611d5b5a59`; B03-v1 |
+| B04 | [CORS adoption brief](https://github.com/saipradikmallakuntla-tech/cors-cookie-doctor/blob/main/ENTERPRISE_ADOPTION_BRIEF.md), EN/ES/PT B04 | `82ff4e086d6860eeb3d9c585bea54c8cc34e4a31`; B04-v1 |
+| H | [Cross-repository handoff plan](CROSS_REPOSITORY_HANDOFF_PLAN.md), EN/ES/PT H00–H06 | `2eb0e64a66a6494fb0302392b6ad42d9d7936378`; H-v1 |
+
+Source baselines for this new synthesis are hub `07d0862027bff92be54e50205512c3f0dedc5efb`, Stream `13c8fec334b2131da63b209c679ed310e4b822a4`, Retry `9e1f91420874a5a5f3d52e47debd1883b968ce01`, and CORS `4815a59d1118b7c21d992e6716306c524cc536fe`; the new documents link those immutable baselines. Existing C01–C12 and T0–T11 remain authoritative.
+
+### 10.2 Additional protected meanings and destinations
+
+| Control | EN | ES | PT | Meaning that must survive translation |
+| --- | --- | --- | --- | --- |
+| T12 | Receiver acknowledgment | Confirmación del receptor | Confirmação do receptor | Actual private acceptance of purpose, source revision, permitted summary, uncertainties and next owner; not a link click or automatic event. |
+| T13 | Proposed adoption discussion; documentary acceptance | Conversación de adopción propuesta; aceptación documental | Discussão de adoção proposta; aceitação documental | Unexecuted review criteria, not a pilot result, deployment decision, measured adoption or completed software test. |
+
+Every new entry inherits N0, N5, N6, N7 and N8. **N8:** receiving roles and reviewers remain unassigned; a real handoff requires actual private acknowledgment; external distribution remains on hold; utility interfaces remain English-only; no browser, hashing, test script, live probe, automatic sanitizer, synchronization or replay is performed. Product-specific N1/N2/N3 remain local as mapped below; N4 applies to any synthetic example. Public records carry only sanitized role/status, not reviewer identities or service-write receipts.
+
+**D7:** the four brief documents in section 10.1, with their explicit `#en`, `#es`, `#pt` sections and localized next-step labels. **D8:** the handoff plan's corresponding `#en`, `#es`, `#pt` sections plus README/NETWORK and portfolio/parity documents. Destinations are documentation references, never evidence-carrying URLs or newly checked live availability. Preserve literal technical names and source destinations; no regional PT promise is added.
+
+### 10.3 B/H locale matrix
+
+Each cell explicitly keys ID + language to the exact source in 10.1. W/P retains the existing definition: complete written draft, human language and relevant domain review pending; publication and API read-back cannot approve a cell. Additional controls below apply in all three locale portions.
+
+| ID / required unit | EN source and state | ES source and state | PT source and state | Terminology | Additional notices | Destinations |
+| --- | --- | --- | --- | --- | --- | --- |
+| B01 Hub adoption brief, all six fields | B01 EN W/P | B01 ES W/P | B01 PT W/P | T0,T4–T8,T10–T13 | N4 | D0,D4,D7,D8 |
+| B02 Stream adoption brief, all six fields | B02 EN W/P | B02 ES W/P | B02 PT W/P | T1,T5–T8,T10–T13 | N1,N4 | D0,D4,D7,D8 |
+| B03 Retry adoption brief, all six fields | B03 EN W/P | B03 ES W/P | B03 PT W/P | T2,T5–T8,T10–T13 | N2,N4 | D0,D4,D7,D8 |
+| B04 CORS adoption brief, all six fields | B04 EN W/P | B04 ES W/P | B04 PT W/P | T3,T5–T8,T10–T13 | N3,N4 | D0,D4,D7,D8 |
+| H00 Hub routing, roles, private record, acknowledgment and stop rules | H EN H00 W/P | H ES H00 W/P | H PT H00 W/P | T0,T6–T13 | N1,N2,N3,N4 | D5,D7,D8 |
+| H01 Stream→Retry | H EN H01 W/P | H ES H01 W/P | H PT H01 W/P | T1,T2,T6,T8,T11,T12 | N1,N2 | D7,D8 |
+| H02 Stream→CORS | H EN H02 W/P | H ES H02 W/P | H PT H02 W/P | T1,T3,T6,T8,T11,T12 | N1,N2,N3 | D7,D8 |
+| H03 Retry→Stream | H EN H03 W/P | H ES H03 W/P | H PT H03 W/P | T1,T2,T6,T8,T11,T12 | N1,N2,N4 | D7,D8 |
+| H04 Retry→CORS | H EN H04 W/P | H ES H04 W/P | H PT H04 W/P | T2,T3,T6,T8,T11,T12 | N2,N3 | D7,D8 |
+| H05 CORS→Retry | H EN H05 W/P | H ES H05 W/P | H PT H05 W/P | T2,T3,T6,T8,T11,T12 | N2,N3 | D7,D8 |
+| H06 CORS→Stream | H EN H06 W/P | H ES H06 W/P | H PT H06 W/P | T1,T3,T6,T8,T11,T12 | N1,N3 | D7,D8 |
+
+### 10.4 Review queue and change control
+
+The portfolio owner must designate actual EN/ES/PT reviewers, relevant domain reviewers and receiving roles. Content operations queues all 33 new cells as pending, checks the six brief fields and every recipe's trigger/sender/receiver/minimum summary/acknowledgment/stop conditions, and retains inherited notices and localized labels. This is editorial comparison, not native-language certification or a software test. Record actual decisions privately by B/H-ID, locale, exact source blob/commit, terminology/notice/destination findings, real reviewer/receiver identity and role, decision, UTC date, evidence and next action. No business outcome or completed diagnostic workflow is inferred.
+
+A changed B/H source, wording, notice or destination reopens affected locale, domain, receiver and channel decisions; identify affected IDs and prepare an attributable approved revision. Existing S/A/O text is outside this correction scope and remains unchanged. Unsupported claims, sensitive evidence or missing authorization/recipient trigger a private hold under the existing operations controls, not an automatic incident service. Keep Batch 22/99 gaps and unfinished architecture evidence explicit; recover authentic receipts only.
+
+Exactly the approved 15 Markdown paths may change. Preserve every existing updated body as a prefix, all other Markdown, and all non-Markdown files. No Mem0 call or credential workaround, deletion, extra repository, duplicate tracker, external send/post, scheduling, runtime change, browser/viewport, hashing, unit/engine test or live probe is authorized. Use the existing executive tracker and one new linked continuation; report actual publication, independent read-back, provider ingestion and human decisions separately.

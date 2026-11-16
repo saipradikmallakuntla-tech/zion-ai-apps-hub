@@ -76,3 +76,12 @@ Batch: `zion-multilingual-enterprise-operations-2026-11-15-en-es-pt`. [EN/ES/PT 
 Six matched O01–O06 sections extend the existing S01–S12/A01–A12 controls: 30 logical IDs and 90 locale entries. Written coverage is not human approval; language/domain review and channel-use approval remain pending. All three utility interfaces remain English-only.
 
 This append-only Markdown package announces no software change, new test result, campaign distribution or automatic synchronization. Preserve dated reports and archives; retain the [portfolio evidence and status register](PORTFOLIO_STATUS.md).
+
+
+## Enterprise adoption briefs and cross-repository handoffs — 2026-11-16 UTC
+
+Batch: `zion-enterprise-adoption-handoff-2026-11-16-en-es-pt`. Complete adoption copy: [Hub B01](ENTERPRISE_ADOPTION_BRIEF.md) · [Stream B02](https://github.com/saipradikmallakuntla-tech/llm-stream-inspector/blob/main/ENTERPRISE_ADOPTION_BRIEF.md) · [Retry B03](https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab/blob/main/ENTERPRISE_ADOPTION_BRIEF.md) · [CORS B04](https://github.com/saipradikmallakuntla-tech/cors-cookie-doctor/blob/main/ENTERPRISE_ADOPTION_BRIEF.md).
+
+The [EN/ES/PT H00–H06 handoff plan](CROSS_REPOSITORY_HANDOFF_PLAN.md) adds hub routing, six utility recipes, minimum summaries, acknowledgment and stop rules under the existing operations controls. The [dated parity extension](TRANSLATION_PARITY_REGISTER.md) adds 33 written/pending locale entries to the retained 90: 41 logical IDs and 123 locale entries total. Earlier counts and scope statements remain dated history.
+
+The authorized package changes exactly 15 Markdown paths: five additions and ten dated updates, zero deletions. Human language/domain and channel-use decisions remain pending. Adoption discussions and acceptance criteria are proposed, not executed pilots or software checks. Utility interfaces remain English-only. No external distribution, automatic synchronization, browser, hashing or test-script work is introduced; source decks, archives, historical reports and all non-Markdown files remain untouched.

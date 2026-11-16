@@ -62,3 +62,10 @@ Batch: `zion-multilingual-enterprise-operations-2026-11-15-en-es-pt`. [EN/ES/PT 
 Six matched O01–O06 sections extend the existing S01–S12/A01–A12 controls: 30 logical IDs and 90 locale entries. Written coverage is not human approval; language/domain review and channel-use approval remain pending. All three utility interfaces remain English-only.
 
 This append-only Markdown package announces no software change, new test result, campaign distribution or automatic synchronization. Preserve dated reports and archives; retain the [portfolio evidence and status register](PORTFOLIO_STATUS.md).
+
+
+## Enterprise adoption briefs and cross-repository handoffs — 2026-11-16 UTC
+
+Batch: `zion-enterprise-adoption-handoff-2026-11-16-en-es-pt`. [Hub brief B01](ENTERPRISE_ADOPTION_BRIEF.md) · [Complete multilingual handoff plan H00–H06](CROSS_REPOSITORY_HANDOFF_PLAN.md) · [Dated parity extension](TRANSLATION_PARITY_REGISTER.md).
+
+H00 provides hub routing and manual acknowledgment/hold fields; H01/H02 cover Stream→Retry/CORS, H03/H04 Retry→Stream/CORS, and H05/H06 CORS→Retry/Stream. These six utility recipes do not expand the four-repository boundary or claim working live integrations. Each brief and H-ID has full EN/neutral-ES/PT text, with proposed roles, minimum permitted summaries and stop rules. A link transfers no state and is not acknowledgment. Earlier scope/count language is dated history; current publication is 15 Markdown paths, five additions and ten updates. Human language/domain/channel review remains pending; no distribution, runtime integration, browser, hashing or test-script work is introduced.
